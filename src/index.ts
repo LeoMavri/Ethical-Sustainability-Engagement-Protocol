@@ -3,6 +3,33 @@ import KeyWords from './keywords.js';
 
 import { PdfReader } from 'pdfreader';
 
+async function readContent(file: string): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new PdfReader({ debug: false });
+    let text = '';
+
+    reader.parseFileItems(file, async (err, item) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      if (!item) {
+        // end of file
+        resolve(text);
+        return;
+      }
+
+      if (!item.text) {
+        // empty item
+        return;
+      }
+
+      text += `${item.text} `;
+    });
+  });
+}
+
 async function main() {
   const reader = new PdfReader({ debug: false });
 
@@ -24,35 +51,40 @@ async function main() {
 
     for (const file of files) {
       if (!file.endsWith('.pdf')) {
-        console.warn(`Skipping file: ${file}`);
+        console.warn(`Skipping file: '${file}'`);
         continue;
       }
-      console.log(`Reading file: ${file}`);
+      console.log(`Reading file: '${file}'`);
 
-      reader.parseFileItems(`./pdfs/${file}`, async (err, item) => {
-        if (err) {
-          console.error('Error reading file', err);
-          return;
-        }
+      const content = await readContent(`./pdfs/${file}`);
 
-        if (!item) {
-          // end of file
-          return;
-        }
+      console.log(`Read ${content.length.toLocaleString()} characters from file '${file}'`);
 
-        if (!item.text) {
-          // empty item
-          return;
-        }
-
-        for (const [category, keywords] of Object.entries(KeyWords)) {
-          for (const keyword of keywords) {
-            if (item.text.includes(keyword)) {
-              console.log(`Found keyword '${keyword}' in category '${category}'`);
-            }
+      for (const [category, keywords] of Object.entries(KeyWords)) {
+        for (const keyword of keywords) {
+          if (content.includes(keyword)) {
+            console.log(`Found keyword '${keyword}' in category '${category}'`);
           }
         }
-      });
+      }
+
+      // reader.parseFileItems(`./pdfs/${file}`, async (err, item) => {
+      //   if (err) {
+      //     console.error('Error reading file', err);
+      //     return;
+      //   }
+
+      //   if (!item) {
+      //     // end of file
+      //     return;
+      //   }
+
+      //   if (!item.text) {
+      //     // empty item
+      //     return;
+      //   }
+
+      // });
     }
   });
 }
