@@ -1,5 +1,5 @@
 import { readdir } from 'fs';
-import { KeyWordsPoint, PointsGiven } from './keywords.js';
+import KeyWords, { PointsGiven } from './keywords';
 
 import { PdfReader } from 'pdfreader';
 
@@ -33,10 +33,9 @@ async function readContent(file: string): Promise<string> {
 const { FirstFind, OtherFind, MoreThanThree, CategoryNeeded } = PointsGiven;
 
 async function main() {
-  // make all of the keywords lowercase for more performance
-  // for (const [category, keywords] of Object.entries(KeyWordsPoint)) {
-  //   KeyWordsPoint[category] = Object.
-  // }
+  for (const [category, keywords] of Object.entries(KeyWords)) {
+    KeyWords[category] = keywords.map(kw => kw.toLowerCase());
+  }
 
   readdir('./pdfs', async (err, files) => {
     if (err) {
@@ -64,7 +63,7 @@ async function main() {
 
       console.log(`Read ${content.length.toLocaleString()} characters from file '${file}'\n`);
 
-      for (const categoryName of Object.keys(KeyWordsPoint)) {
+      for (const categoryName of Object.keys(KeyWords)) {
         pointsPerCategory.set(categoryName, 0);
       }
 
@@ -72,8 +71,8 @@ async function main() {
         foundKeywords.delete(kw);
       }
 
-      for (const [category, keywords] of Object.entries(KeyWordsPoint)) {
-        for (const [keyword, points] of Object.entries(keywords)) {
+      for (const [category, keywords] of Object.entries(KeyWords)) {
+        for (const keyword of keywords) {
           let count = (content.match(new RegExp(keyword, 'gi')) || []).length;
 
           if (count === 0) {
@@ -94,7 +93,13 @@ async function main() {
           }
         }
 
-        console.log(`Category '${category}' has ${pointsPerCategory.get(category)} points\n`);
+        if (pointsPerCategory.get(category) >= CategoryNeeded) {
+          console.log(
+            `Category '${category}' has received ${pointsPerCategory.get(category)} points, thus it matched`
+          );
+        } else {
+          console.debug(`Category '${category}' has ${pointsPerCategory.get(category)} points\n`);
+        }
       }
     }
   });
