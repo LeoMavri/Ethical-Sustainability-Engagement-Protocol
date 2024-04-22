@@ -1,5 +1,5 @@
 import { readdir } from 'fs';
-import KeyWords, { PointsGiven } from './keywords';
+import KeyWords, { PointsGiven } from './keywords.js';
 
 import { PdfReader } from 'pdfreader';
 
