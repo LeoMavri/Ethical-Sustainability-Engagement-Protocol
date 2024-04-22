@@ -60,6 +60,8 @@ async function main() {
 
       console.log(`Read ${content.length.toLocaleString()} characters from file '${file}'`);
 
+      console.log(content);
+
       for (const [category, keywords] of Object.entries(KeyWords)) {
         for (const keyword of keywords) {
           if (content.includes(keyword)) {
@@ -67,24 +69,6 @@ async function main() {
           }
         }
       }
-
-      // reader.parseFileItems(`./pdfs/${file}`, async (err, item) => {
-      //   if (err) {
-      //     console.error('Error reading file', err);
-      //     return;
-      //   }
-
-      //   if (!item) {
-      //     // end of file
-      //     return;
-      //   }
-
-      //   if (!item.text) {
-      //     // empty item
-      //     return;
-      //   }
-
-      // });
     }
   });
 }
