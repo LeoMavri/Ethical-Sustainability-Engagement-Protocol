@@ -1,5 +1,5 @@
 import { readdir } from 'fs';
-import KeyWords from './keywords.js';
+import { KeyWordsPoint, PointsGiven } from './keywords.js';
 
 import { PdfReader } from 'pdfreader';
 
@@ -30,13 +30,13 @@ async function readContent(file: string): Promise<string> {
   });
 }
 
-async function main() {
-  const reader = new PdfReader({ debug: false });
+const { FirstFind, OtherFind, MoreThanThree, CategoryNeeded } = PointsGiven;
 
+async function main() {
   // make all of the keywords lowercase for more performance
-  for (const [category, keywords] of Object.entries(KeyWords)) {
-    KeyWords[category] = keywords.map(keyword => keyword.toLowerCase());
-  }
+  // for (const [category, keywords] of Object.entries(KeyWordsPoint)) {
+  //   KeyWordsPoint[category] = Object.
+  // }
 
   readdir('./pdfs', async (err, files) => {
     if (err) {
@@ -49,7 +49,11 @@ async function main() {
       process.exit(1);
     }
 
+    const foundKeywords = new Set<string>();
+    const pointsPerCategory = new Map<string, number>();
+
     for (const file of files) {
+      console.log();
       if (!file.endsWith('.pdf')) {
         console.warn(`Skipping file: '${file}'`);
         continue;
@@ -58,33 +62,40 @@ async function main() {
 
       const content = await readContent(`./pdfs/${file}`);
 
-      console.log(`Read ${content.length.toLocaleString()} characters from file '${file}'`);
+      console.log(`Read ${content.length.toLocaleString()} characters from file '${file}'\n`);
 
-      for (const [category, keywords] of Object.entries(KeyWords)) {
-        for (const keyword of keywords) {
-          if (content.includes(keyword)) {
-            console.log(`Found keyword '${keyword}' in category '${category}'`);
-          }
-        }
+      for (const categoryName of Object.keys(KeyWordsPoint)) {
+        pointsPerCategory.set(categoryName, 0);
       }
 
-      // reader.parseFileItems(`./pdfs/${file}`, async (err, item) => {
-      //   if (err) {
-      //     console.error('Error reading file', err);
-      //     return;
-      //   }
+      for (const kw of foundKeywords) {
+        foundKeywords.delete(kw);
+      }
 
-      //   if (!item) {
-      //     // end of file
-      //     return;
-      //   }
+      for (const [category, keywords] of Object.entries(KeyWordsPoint)) {
+        for (const [keyword, points] of Object.entries(keywords)) {
+          let count = (content.match(new RegExp(keyword, 'gi')) || []).length;
 
-      //   if (!item.text) {
-      //     // empty item
-      //     return;
-      //   }
+          if (count === 0) {
+            continue;
+          }
 
-      // });
+          console.log(`Found keyword '${keyword}' in category '${category}' ${count} times`);
+
+          if (count >= 3) {
+            pointsPerCategory.set(category, pointsPerCategory.get(category)! + MoreThanThree);
+          }
+
+          pointsPerCategory.set(category, pointsPerCategory.get(category)! + FirstFind);
+          --count;
+
+          if (count > 0) {
+            pointsPerCategory.set(category, pointsPerCategory.get(category)! + count * OtherFind);
+          }
+        }
+
+        console.log(`Category '${category}' has ${pointsPerCategory.get(category)} points\n`);
+      }
     }
   });
 }

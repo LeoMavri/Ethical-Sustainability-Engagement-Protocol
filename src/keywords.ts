@@ -20,6 +20,47 @@ Engagement Strategies - Detailed plans on how to involve various stakeholders in
 User Feedback Loops - Refers to mechanisms and processes through which users of digital projects can provide continual feedback to improve and adapt the project development.
 Public Consultation - The process of involving the public in the planning and decision-making processes of digital projects, ensuring transparency and better governance.
  */
+
+type Points = number;
+
+export const PointsGiven = {
+  FirstFind: 5, // 5 points if it's the first time this keyword is found
+  OtherFind: 1, // 1 point for each subsequent time the keyword is found
+  MoreThanThree: 5, // 5 points if the keyword is found more than three times (only applies once)
+  CategoryNeeded: 50, // points needed in total to be a match
+};
+
+export const KeyWordsPoint: {
+  [categoryName: string]: {
+    [keyWord: string]: Points;
+  };
+} = {
+  Sustainability: {
+    'Green Computing': 1,
+    'Corporate Social Responsibility': 1,
+    'Renewable Technologies': 1,
+    'Life Cycle Assessment': 1,
+    'Sustainable Innovation': 1,
+  },
+
+  Ethics: {
+    'Data Privacy': 1,
+    'AI Ethics': 1,
+    'Code of Conduct': 1,
+    'Ethical Hacking': 1,
+    'Fair Use Policies': 1,
+  },
+
+  'Stakeholder Engagement': {
+    'Community Outreach': 1,
+    'Stakeholder Analysis': 1,
+    'Engagement Strategies': 1,
+    'User Feedback Loops': 1,
+    'Public Consultation': 1,
+  },
+};
+
+/*
 const KeyWords = {
   Susteainability: [
     'Green Computing',
@@ -43,3 +84,4 @@ const KeyWords = {
 };
 
 export default KeyWords;
+*/
