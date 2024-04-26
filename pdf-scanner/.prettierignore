@@ -5,7 +5,7 @@
 /docs
 /misc
 /node_modules
+/.github
+pnpm-lock.yaml
+.TODO
 /temp
-
-# Files
-/npm-debug.log

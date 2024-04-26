@@ -1,0 +1,3230 @@
+{
+  "search-results": {
+    "opensearch:totalResults": "454147",
+    "opensearch:startIndex": "0",
+    "opensearch:itemsPerPage": "100",
+    "opensearch:Query": {
+      "@role": "request",
+      "@searchTerms": "Digital projects",
+      "@startPage": "0"
+    },
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=100&query=Digital+projects&apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "first",
+        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=0&count=100&query=Digital+projects&apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "next",
+        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=100&count=100&query=Digital+projects&apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "last",
+        "@href": "https://api.elsevier.com/content/search/sciencedirect?start=5900&count=100&query=Digital+projects&apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson",
+        "@type": "application/json"
+      }
+    ],
+    "entry": [
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S266672152400005X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S266672152400005X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2024.100120",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S266672152400005X",
+        "dc:title": "The future of digitalized project practices through data-savvy talent: A digital competence formation perspective",
+        "dc:creator": "Yan Liu",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "5",
+        "prism:coverDate": "2024-12-31",
+        "prism:startingPage": "100120",
+        "prism:doi": "10.1016/j.plas.2024.100120",
+        "openaccess": true,
+        "pii": "S266672152400005X",
+        "authors": {
+          "author": [{ "$": "Yan Liu" }, { "$": "Ningshuang Zeng" }, { "$": "Paul W. Chan" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-20T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0925753524000766"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0925753524000766?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ssci.2024.106486",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0925753524000766",
+        "dc:title": "Developing an integrated digital delivery framework and workflow guideline for construction safety management in a project delivery system",
+        "dc:creator": "Joshua Amo Larbi",
+        "prism:publicationName": "Safety Science",
+        "prism:volume": "175",
+        "prism:coverDate": "2024-07-31",
+        "prism:startingPage": "106486",
+        "prism:doi": "10.1016/j.ssci.2024.106486",
+        "openaccess": false,
+        "pii": "S0925753524000766",
+        "authors": {
+          "author": [
+            { "$": "Joshua Amo Larbi" },
+            { "$": "Llewellyn C. M. Tang" },
+            { "$": "Richmond Darko Danquah" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-26T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0263786324000061"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0263786324000061?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijproman.2024.102564",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0263786324000061",
+        "dc:title": "Pursuing openness in the digital age: Insights from client–contractor knowledge collaboration at the project front end",
+        "dc:creator": "Nataliia Korotkova",
+        "prism:publicationName": "International Journal of Project Management",
+        "prism:volume": "42",
+        "prism:coverDate": "2024-01-31",
+        "prism:startingPage": "102564",
+        "prism:doi": "10.1016/j.ijproman.2024.102564",
+        "openaccess": true,
+        "pii": "S0263786324000061",
+        "authors": {
+          "author": [
+            { "$": "Nataliia Korotkova" },
+            { "$": "Joakim Lilliesköld" },
+            { "$": "Ermal Hetemi" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-04T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S000768132400048X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S000768132400048X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.bushor.2024.04.003",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S000768132400048X",
+        "dc:title": "Leaders, let’s get agile! Observing agile leadership in successful digital transformation projects",
+        "dc:creator": "Riccardo Rialti",
+        "prism:publicationName": "Business Horizons",
+        "prism:coverDate": "2024-04-04",
+        "prism:doi": "10.1016/j.bushor.2024.04.003",
+        "openaccess": true,
+        "pii": "S000768132400048X",
+        "authors": { "author": [{ "$": "Riccardo Rialti" }, { "$": "Raffaele Filieri" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-02T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0927538X2300313X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0927538X2300313X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.pacfin.2023.102242",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0927538X2300313X",
+        "dc:title": "Does digital tax enforcement drive corporate digitalization? Evidence from the Golden Tax Project III in China: A pre-registered report",
+        "dc:creator": "Lifang Chen",
+        "prism:publicationName": "Pacific-Basin Finance Journal",
+        "prism:volume": "83",
+        "prism:coverDate": "2024-02-29",
+        "prism:startingPage": "102242",
+        "prism:doi": "10.1016/j.pacfin.2023.102242",
+        "openaccess": false,
+        "pii": "S0927538X2300313X",
+        "authors": { "author": [{ "$": "Lifang Chen" }, { "$": "Ruzhen He" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-10-12T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0268401223000944"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0268401223000944?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijinfomgt.2023.102713",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0268401223000944",
+        "dc:title": "Digital transformation in SMEs: A taxonomy of externally supported digital innovation projects",
+        "dc:creator": "Andreas Hermann",
+        "prism:publicationName": "International Journal of Information Management",
+        "prism:volume": "74",
+        "prism:coverDate": "2024-02-29",
+        "prism:startingPage": "102713",
+        "prism:doi": "10.1016/j.ijinfomgt.2023.102713",
+        "openaccess": false,
+        "pii": "S0268401223000944",
+        "authors": {
+          "author": [
+            { "$": "Andreas Hermann" },
+            { "$": "Torsten Gollhardt" },
+            { "$": "Jörg Becker" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-02-20T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0166497224000178"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0166497224000178?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.technovation.2024.102967",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0166497224000178",
+        "dc:title": "Projects as a speciation and aggregation mechanism in transitions: Bridging project management and transitions research in the digitalization of UK architecture, engineering, and construction industry.",
+        "dc:creator": "George Papachristos",
+        "prism:publicationName": "Technovation",
+        "prism:volume": "132",
+        "prism:coverDate": "2024-04-30",
+        "prism:startingPage": "102967",
+        "prism:doi": "10.1016/j.technovation.2024.102967",
+        "openaccess": true,
+        "pii": "S0166497224000178",
+        "authors": {
+          "author": [
+            { "$": "George Papachristos" },
+            { "$": "Eleni Papadonikolaki" },
+            { "$": "Bethan Morgan" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-12-11T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352409X23005060"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352409X23005060?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jasrep.2023.104331",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352409X23005060",
+        "dc:title": "Application of mobile digital recording and GIS analysis of archaeological surface survey finds in the MapFarm project",
+        "dc:creator": "Kyriakos Sgouropoulos",
+        "prism:publicationName": "Journal of Archaeological Science: Reports",
+        "prism:volume": "53",
+        "prism:coverDate": "2024-02-29",
+        "prism:startingPage": "104331",
+        "prism:doi": "10.1016/j.jasrep.2023.104331",
+        "openaccess": false,
+        "pii": "S2352409X23005060",
+        "authors": {
+          "author": [
+            { "$": "Kyriakos Sgouropoulos" },
+            { "$": "Dushka Urem-Kotsou" },
+            { "$": "Periklis Chrysafakoglou" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2214845024000528"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2214845024000528?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.bir.2024.03.011",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2214845024000528",
+        "dc:title": "A feasible approach to projecting household demand for the digital ruble in Russia",
+        "dc:creator": "Vadim Grishchenko",
+        "prism:publicationName": "Borsa Istanbul Review",
+        "prism:coverDate": "2024-03-27",
+        "prism:doi": "10.1016/j.bir.2024.03.011",
+        "openaccess": true,
+        "pii": "S2214845024000528",
+        "authors": {
+          "author": [
+            { "$": "Vadim Grishchenko" },
+            { "$": "Alexey Ponomarenko" },
+            { "$": "Sergey Seleznev" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-07-14T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666721523000121"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666721523000121?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2023.100091",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666721523000121",
+        "dc:title": "Renaissance of project marketing: Avenues for the utilisation of digital tools",
+        "dc:creator": "Sebastian Toukola",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "4",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "100091",
+        "prism:doi": "10.1016/j.plas.2023.100091",
+        "openaccess": true,
+        "pii": "S2666721523000121",
+        "authors": {
+          "author": [
+            { "$": "Sebastian Toukola" },
+            { "$": "Matias Ståhle" },
+            { "$": "Tommi Mahlamäki" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-10-30T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0263786323001084"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0263786323001084?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijproman.2023.102543",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0263786323001084",
+        "dc:title": "Crossing digital frontiers with cultural intelligence - a new paradigm for project managers",
+        "dc:creator": "Francesco Anglani",
+        "prism:publicationName": "International Journal of Project Management",
+        "prism:volume": "41",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "102543",
+        "prism:doi": "10.1016/j.ijproman.2023.102543",
+        "openaccess": true,
+        "pii": "S0263786323001084",
+        "authors": {
+          "author": [
+            { "$": "Francesco Anglani" },
+            { "$": "Selene Pennetta" },
+            { "$": "Stephen Boyle" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-04T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405844023090205"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405844023090205?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.heliyon.2023.e21812",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405844023090205",
+        "dc:title": "Effectiveness of the forced usage of alternative digital platforms during the COVID-19 pandemic in project communication management",
+        "dc:creator": "Sigal Kordova",
+        "prism:publicationName": "Heliyon",
+        "prism:volume": "9",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "e21812",
+        "prism:doi": "10.1016/j.heliyon.2023.e21812",
+        "openaccess": true,
+        "pii": "S2405844023090205",
+        "authors": { "author": [{ "$": "Sigal Kordova" }, { "$": "Ron S. Hirschprung" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-02-11T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0168851024000228"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0168851024000228?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.healthpol.2024.105012",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0168851024000228",
+        "dc:title": "The association of hospital profitability and digital maturity – An explorative study using data from the German DigitalRadar project",
+        "dc:creator": "Justus Vogel",
+        "prism:publicationName": "Health Policy",
+        "prism:volume": "142",
+        "prism:coverDate": "2024-04-30",
+        "prism:startingPage": "105012",
+        "prism:doi": "10.1016/j.healthpol.2024.105012",
+        "openaccess": true,
+        "pii": "S0168851024000228",
+        "authors": {
+          "author": [
+            { "$": "Justus Vogel" },
+            { "$": "Johannes Hollenbach" },
+            { "$": "Alexander Geissler" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-07-05T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405844023051496"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405844023051496?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.heliyon.2023.e17941",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405844023051496",
+        "dc:title": "Impact of digital communications on project efficiency through ease of use and top management support",
+        "dc:creator": "Kainat Afridi",
+        "prism:publicationName": "Heliyon",
+        "prism:volume": "9",
+        "prism:coverDate": "2023-07-31",
+        "prism:startingPage": "e17941",
+        "prism:doi": "10.1016/j.heliyon.2023.e17941",
+        "openaccess": true,
+        "pii": "S2405844023051496",
+        "authors": {
+          "author": [
+            { "$": "Kainat Afridi" },
+            { "$": "Jamshid Ali Turi" },
+            { "$": "Joanna Rosak-Szyrocka" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-08-09T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0167739X23003011"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0167739X23003011?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.future.2023.08.001",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0167739X23003011",
+        "dc:title": "Public libraries as a partner in digital innovation project: Designing a virtual reality experience to support digital literacy",
+        "dc:creator": "Johanna Ylipulli",
+        "prism:publicationName": "Future Generation Computer Systems",
+        "prism:volume": "149",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "594",
+        "prism:endingPage": "605",
+        "prism:doi": "10.1016/j.future.2023.08.001",
+        "openaccess": true,
+        "pii": "S0167739X23003011",
+        "authors": {
+          "author": [
+            { "$": "Johanna Ylipulli" },
+            { "$": "Matti Pouke" },
+            { "$": "Turkka Keinonen" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-20T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050924000231"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050924000231?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2024.01.023",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050924000231",
+        "dc:title": "Digital transformation under uncertainty – market value effects of early Industry 4.0 innovation projects",
+        "dc:creator": "Philipp Majocco",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "232",
+        "prism:coverDate": "2024-12-31",
+        "prism:startingPage": "232",
+        "prism:endingPage": "241",
+        "prism:doi": "10.1016/j.procs.2024.01.023",
+        "openaccess": true,
+        "pii": "S1877050924000231",
+        "authors": {
+          "author": [
+            { "$": "Philipp Majocco" },
+            { "$": "Philipp Mosch" },
+            { "$": "Robert Obermaier" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-09-13T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0167923623001586"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0167923623001586?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.dss.2023.114083",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0167923623001586",
+        "dc:title": "Developers' decision to navigate resource adversity in crowdfunded digital development projects",
+        "dc:creator": "Shahla Ghobadi",
+        "prism:publicationName": "Decision Support Systems",
+        "prism:volume": "177",
+        "prism:coverDate": "2024-02-29",
+        "prism:startingPage": "114083",
+        "prism:doi": "10.1016/j.dss.2023.114083",
+        "openaccess": true,
+        "pii": "S0167923623001586",
+        "authors": { "author": [{ "$": "Shahla Ghobadi" }, { "$": "Lars Mathiassen" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-19T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0959804924006853"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0959804924006853?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ejca.2024.114029",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0959804924006853",
+        "dc:title": "Scaling up and implementing the digital Survivorship Passport tool in routine clinical care – The European multidisciplinary PanCareSurPass project",
+        "dc:creator": "Anna-Liesa Filbert",
+        "prism:publicationName": "European Journal of Cancer",
+        "prism:volume": "202",
+        "prism:coverDate": "2024-05-31",
+        "prism:startingPage": "114029",
+        "prism:doi": "10.1016/j.ejca.2024.114029",
+        "openaccess": false,
+        "pii": "S0959804924006853",
+        "authors": {
+          "author": [
+            { "$": "Anna-Liesa Filbert" },
+            { "$": "Leontien Kremer" },
+            { "$": "Riccardo Haupt" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-07-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0020025523009921"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0020025523009921?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ins.2023.119407",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0020025523009921",
+        "dc:title": "A novel interval valued circular intuitionistic fuzzy AHP methodology: Application in digital transformation project selection",
+        "dc:creator": "İrem Otay",
+        "prism:publicationName": "Information Sciences",
+        "prism:volume": "647",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "119407",
+        "prism:doi": "10.1016/j.ins.2023.119407",
+        "openaccess": false,
+        "pii": "S0020025523009921",
+        "authors": {
+          "author": [{ "$": "İrem Otay" }, { "$": "Sezi Çevik Onar" }, { "$": "Cengiz Kahraman" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-01-13T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050922023468"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050922023468?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2022.12.268",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050922023468",
+        "dc:title": "Digital Twin – A Tool for Project Management in Manufacturing",
+        "dc:creator": "Brian Hickey",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "217",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "720",
+        "prism:endingPage": "727",
+        "prism:doi": "10.1016/j.procs.2022.12.268",
+        "openaccess": true,
+        "pii": "S1877050922023468",
+        "authors": {
+          "author": [
+            { "$": "Brian Hickey" },
+            { "$": "Dr Carine Gachon" },
+            { "$": "Dr John Cosgrove" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-04-17T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S266616592300042X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S266616592300042X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.dibe.2023.100160",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S266616592300042X",
+        "dc:title": "A new perspective to evaluate the antecedent path of adoption of digital technologies in major projects of construction industry: A case study in China",
+        "dc:creator": "Jingxiao Zhang",
+        "prism:publicationName": "Developments in the Built Environment",
+        "prism:volume": "14",
+        "prism:coverDate": "2023-04-30",
+        "prism:startingPage": "100160",
+        "prism:doi": "10.1016/j.dibe.2023.100160",
+        "openaccess": true,
+        "pii": "S266616592300042X",
+        "authors": {
+          "author": [
+            { "$": "Jingxiao Zhang" },
+            { "$": "Meirong Zhang" },
+            { "$": "Simon P. Philbin" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-03-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050923004623"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050923004623?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2023.01.451",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050923004623",
+        "dc:title": "Digital Skills for Project Managers: A Systematic Literature Review",
+        "dc:creator": "Mohamed Amine Marhraoui",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "219",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1591",
+        "prism:endingPage": "1598",
+        "prism:doi": "10.1016/j.procs.2023.01.451",
+        "openaccess": true,
+        "pii": "S1877050923004623",
+        "authors": { "author": "Mohamed Amine Marhraoui" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666721522000217"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666721522000217?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2022.100061",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666721522000217",
+        "dc:title": "Digitalization of project management: Opportunities in research and practice",
+        "dc:creator": "Carl Marnewick",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "3",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "100061",
+        "prism:doi": "10.1016/j.plas.2022.100061",
+        "openaccess": true,
+        "pii": "S2666721522000217",
+        "authors": { "author": [{ "$": "Carl Marnewick" }, { "$": "Annlizé L. Marnewick" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-08T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2090447923004409"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2090447923004409?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.asej.2023.102551",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2090447923004409",
+        "dc:title": "Evaluation of success factors of utilizing AI in digital transformation of health and safety management systems in modern construction projects",
+        "dc:creator": "Ahsan Waqar",
+        "prism:publicationName": "Ain Shams Engineering Journal",
+        "prism:volume": "14",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "102551",
+        "prism:doi": "10.1016/j.asej.2023.102551",
+        "openaccess": true,
+        "pii": "S2090447923004409",
+        "authors": { "author": [{ "$": "Ahsan Waqar" }, { "$": " Andri" }, { "$": "Citra Utami" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-03-09T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666721523000042"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666721523000042?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2023.100083",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666721523000042",
+        "dc:title": "Editorial: Digital learning and education in a project society",
+        "dc:creator": "Efrosyni Konstantinou",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "4",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "100083",
+        "prism:doi": "10.1016/j.plas.2023.100083",
+        "openaccess": true,
+        "pii": "S2666721523000042",
+        "authors": {
+          "author": [
+            { "$": "Efrosyni Konstantinou" },
+            { "$": "Andreas Nachbagauer" },
+            { "$": "Harald Wehnes" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-23T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2214782923000933"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2214782923000933?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.invent.2023.100693",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2214782923000933",
+        "dc:title": "Transforming guided internet interventions into simplified and self-guided digital tools – Experiences from three recent projects",
+        "dc:creator": "Martin Kraepelien",
+        "prism:publicationName": "Internet Interventions",
+        "prism:volume": "34",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "100693",
+        "prism:doi": "10.1016/j.invent.2023.100693",
+        "openaccess": true,
+        "pii": "S2214782923000933",
+        "authors": {
+          "author": [
+            { "$": "Martin Kraepelien" },
+            { "$": "Amira Hentati" },
+            { "$": "Nils Lindefors" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-06-14T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666721522000138"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666721522000138?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2022.100053",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666721522000138",
+        "dc:title": "Digital tools for stakeholder participation in urban development projects",
+        "dc:creator": "Sebastian Toukola",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "3",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "100053",
+        "prism:doi": "10.1016/j.plas.2022.100053",
+        "openaccess": true,
+        "pii": "S2666721522000138",
+        "authors": { "author": [{ "$": "Sebastian Toukola" }, { "$": "Tuomas Ahola" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-11-01T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405632422000440"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405632422000440?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.tipsro.2022.10.004",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405632422000440",
+        "dc:title": "Art and digital technologies to support resilience during the oncological journey: The Art4ART project",
+        "dc:creator": "Luca Tagliaferri",
+        "prism:publicationName": "Technical Innovations & Patient Support in Radiation Oncology",
+        "prism:volume": "24",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "101",
+        "prism:endingPage": "106",
+        "prism:doi": "10.1016/j.tipsro.2022.10.004",
+        "openaccess": true,
+        "pii": "S2405632422000440",
+        "authors": {
+          "author": [
+            { "$": "Luca Tagliaferri" },
+            { "$": "Loredana Dinapoli" },
+            { "$": "Maria Antonietta Gambacorta" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-03-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050923004477"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050923004477?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2023.01.438",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050923004477",
+        "dc:title": "Introducing Digital Technologies for Remote Care in Norway and China: The DigiRemote Project",
+        "dc:creator": "Hong Li",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "219",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1478",
+        "prism:endingPage": "1484",
+        "prism:doi": "10.1016/j.procs.2023.01.438",
+        "openaccess": true,
+        "pii": "S1877050923004477",
+        "authors": {
+          "author": [{ "$": "Hong Li" }, { "$": "Torbjørg Træland Meum" }, { "$": "Miria Grisot" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-04-30T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0167404822001420"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0167404822001420?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.cose.2022.102747",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0167404822001420",
+        "dc:title": "Security First, Security by Design, or Security Pragmatism – Strategic Roles of IT Security in Digitalization Projects",
+        "dc:creator": "Florian Guggenmos",
+        "prism:publicationName": "Computers & Security",
+        "prism:volume": "118",
+        "prism:coverDate": "2022-07-31",
+        "prism:startingPage": "102747",
+        "prism:doi": "10.1016/j.cose.2022.102747",
+        "openaccess": false,
+        "pii": "S0167404822001420",
+        "authors": {
+          "author": [
+            { "$": "Florian Guggenmos" },
+            { "$": "Björn Häckel" },
+            { "$": "Bastian Stahl" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-16T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666659622000221"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666659622000221?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jrt.2022.100045",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666659622000221",
+        "dc:title": "Supporting responsible research and innovation within a university-based digital research programme: Reflections from the “hoRRIzon” project",
+        "dc:creator": "Virginia Portillo",
+        "prism:publicationName": "Journal of Responsible Technology",
+        "prism:volume": "12",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "100045",
+        "prism:doi": "10.1016/j.jrt.2022.100045",
+        "openaccess": true,
+        "pii": "S2666659622000221",
+        "authors": {
+          "author": [
+            { "$": "Virginia Portillo" },
+            { "$": "Peter Craigon" },
+            { "$": "Elvira Pérez-Vallejos" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-07-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666281723000756"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666281723000756?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.fsidi.2023.301566",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666281723000756",
+        "dc:title": "Expanding digital forensics education with artifact curation and scalable, accessible exercises via the Artifact Genome Project",
+        "dc:creator": "Cinthya Grajeda",
+        "prism:publicationName": "Forensic Science International: Digital Investigation",
+        "prism:volume": "45",
+        "prism:coverDate": "2023-07-31",
+        "prism:startingPage": "301566",
+        "prism:doi": "10.1016/j.fsidi.2023.301566",
+        "openaccess": true,
+        "pii": "S2666281723000756",
+        "authors": {
+          "author": [
+            { "$": "Cinthya Grajeda" },
+            { "$": "Jessica Berrios" },
+            { "$": "Ibrahim Baggili" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-03T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352146523004283"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352146523004283?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.trpro.2023.11.132",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352146523004283",
+        "dc:title": "Step for digital twins of bridges based on the original project drawings",
+        "dc:creator": "Lucia Figuli",
+        "prism:publicationName": "Transportation Research Procedia",
+        "prism:volume": "74",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1532",
+        "prism:endingPage": "1537",
+        "prism:doi": "10.1016/j.trpro.2023.11.132",
+        "openaccess": true,
+        "pii": "S2352146523004283",
+        "authors": {
+          "author": [{ "$": "Lucia Figuli" }, { "$": "Daniel Dugel" }, { "$": "Daniel Papán" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-23T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S147403462300397X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S147403462300397X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.aei.2023.102269",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S147403462300397X",
+        "dc:title": "Digital twin-enabled collision early warning system for marine piling: Application to a wharf project in China",
+        "dc:creator": "Minghao Li",
+        "prism:publicationName": "Advanced Engineering Informatics",
+        "prism:volume": "59",
+        "prism:coverDate": "2024-01-31",
+        "prism:startingPage": "102269",
+        "prism:doi": "10.1016/j.aei.2023.102269",
+        "openaccess": false,
+        "pii": "S147403462300397X",
+        "authors": {
+          "author": [{ "$": "Minghao Li" }, { "$": "Qiubing Ren" }, { "$": "Shiyuan Liu" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-25T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050923017647"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050923017647?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2023.10.597",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050923017647",
+        "dc:title": "Software Size Measurement of Smart Digital Tourism Project based on Use Case Point",
+        "dc:creator": "Choirul Huda",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "227",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "902",
+        "prism:endingPage": "911",
+        "prism:doi": "10.1016/j.procs.2023.10.597",
+        "openaccess": true,
+        "pii": "S1877050923017647",
+        "authors": {
+          "author": [
+            { "$": "Choirul Huda" },
+            { "$": "Ford Lumban Gaol" },
+            { "$": "Benfano Soewito" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-12-13T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352146523008657"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352146523008657?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.trpro.2023.11.567",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352146523008657",
+        "dc:title": "Developing personas to improve understanding of users’ needs in digital mobility: An experience of the DIGNITY project in the Barcelona Metropolitan Area",
+        "dc:creator": "Bartosz Wybraniec",
+        "prism:publicationName": "Transportation Research Procedia",
+        "prism:volume": "72",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1121",
+        "prism:endingPage": "1128",
+        "prism:doi": "10.1016/j.trpro.2023.11.567",
+        "openaccess": true,
+        "pii": "S2352146523008657",
+        "authors": {
+          "author": [
+            { "$": "Bartosz Wybraniec" },
+            { "$": "M. I. Ortego" },
+            { "$": "Nina Nesterova" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2226585622000723"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2226585622000723?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jum.2022.08.004",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2226585622000723",
+        "dc:title": "Crowdsourcing framework applied to strategic digital city projects",
+        "dc:creator": "Carla Cavichiolo Flores",
+        "prism:publicationName": "Journal of Urban Management",
+        "prism:volume": "11",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "467",
+        "prism:endingPage": "478",
+        "prism:doi": "10.1016/j.jum.2022.08.004",
+        "openaccess": true,
+        "pii": "S2226585622000723",
+        "authors": {
+          "author": [{ "$": "Carla Cavichiolo Flores" }, { "$": "Denis Alcides Rezende" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-04-19T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352409X23001803"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352409X23001803?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jasrep.2023.104005",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352409X23001803",
+        "dc:title": "The Digital Ludeme Project: Combining archaeological and computational methods for the study of ancient board games",
+        "dc:creator": "Walter Crist",
+        "prism:publicationName": "Journal of Archaeological Science: Reports",
+        "prism:volume": "49",
+        "prism:coverDate": "2023-06-30",
+        "prism:startingPage": "104005",
+        "prism:doi": "10.1016/j.jasrep.2023.104005",
+        "openaccess": true,
+        "pii": "S2352409X23001803",
+        "authors": { "author": [{ "$": "Walter Crist" }, { "$": "Dennis J. N. J. Soemers" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-11-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926580522005155"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926580522005155?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.autcon.2022.104645",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926580522005155",
+        "dc:title": "A blockchain 3.0 paradigm for digital twins in construction project management",
+        "dc:creator": "Rui Zhao",
+        "prism:publicationName": "Automation in Construction",
+        "prism:volume": "145",
+        "prism:coverDate": "2023-01-31",
+        "prism:startingPage": "104645",
+        "prism:doi": "10.1016/j.autcon.2022.104645",
+        "openaccess": false,
+        "pii": "S0926580522005155",
+        "authors": { "author": [{ "$": "Rui Zhao" }, { "$": "Zhe Chen" }, { "$": "Fan Xue" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-08-12T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212054822000224"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212054822000224?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.daach.2022.e00233",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212054822000224",
+        "dc:title": "Digitalization of ancient fabric using virtual reality technology at the Wieng Yong House Museum: The FabricVR project",
+        "dc:creator": "Watsaporn Arayaphan",
+        "prism:publicationName": "Digital Applications in Archaeology and Cultural Heritage",
+        "prism:volume": "26",
+        "prism:coverDate": "2022-09-30",
+        "prism:startingPage": "e00233",
+        "prism:doi": "10.1016/j.daach.2022.e00233",
+        "openaccess": false,
+        "pii": "S2212054822000224",
+        "authors": {
+          "author": [
+            { "$": "Watsaporn Arayaphan" },
+            { "$": "Kannikar Intawong" },
+            { "$": "Kitti Puritat" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-01-10T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050921023140"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050921023140?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2021.12.091",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050921023140",
+        "dc:title": "Employee learning in the digitalization context: An evaluation from team members’ and project managers’ perspectives",
+        "dc:creator": "Bertha Joseph Ngereja",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "196",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "902",
+        "prism:endingPage": "909",
+        "prism:doi": "10.1016/j.procs.2021.12.091",
+        "openaccess": true,
+        "pii": "S1877050921023140",
+        "authors": { "author": [{ "$": "Bertha Joseph Ngereja" }, { "$": "Bassam Hussein" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-03-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050923003101"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050923003101?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2023.01.301",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050923003101",
+        "dc:title": "Towards a paradigm shift in vehicle project management: From a traditional multi-project-management to an integrated process-based digital approach",
+        "dc:creator": "Markus Rabe",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "219",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "362",
+        "prism:endingPage": "369",
+        "prism:doi": "10.1016/j.procs.2023.01.301",
+        "openaccess": true,
+        "pii": "S1877050923003101",
+        "authors": { "author": [{ "$": "Markus Rabe" }, { "$": "Emre Kilic" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-08-23T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352710223017783"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352710223017783?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jobe.2023.107598",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710223017783",
+        "dc:title": "Digital twin-enabled prefabrication supply chain for smart construction and carbon emissions evaluation in building projects",
+        "dc:creator": "Sitsofe Kwame Yevu",
+        "prism:publicationName": "Journal of Building Engineering",
+        "prism:volume": "78",
+        "prism:coverDate": "2023-11-01",
+        "prism:startingPage": "107598",
+        "prism:doi": "10.1016/j.jobe.2023.107598",
+        "openaccess": false,
+        "pii": "S2352710223017783",
+        "authors": {
+          "author": [
+            { "$": "Sitsofe Kwame Yevu" },
+            { "$": "Emmanuel Kingsford Owusu" },
+            { "$": "Vineet R. Kamat" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-05T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0167494324000815"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0167494324000815?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.archger.2024.105405",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0167494324000815",
+        "dc:title": "The Social and Cognitive Online Training (SCOT) project: A digital randomized controlled trial to promote socio-cognitive well-being in older adults",
+        "dc:creator": "Giulia Funghi",
+        "prism:publicationName": "Archives of Gerontology and Geriatrics",
+        "prism:volume": "122",
+        "prism:coverDate": "2024-07-31",
+        "prism:startingPage": "105405",
+        "prism:doi": "10.1016/j.archger.2024.105405",
+        "openaccess": true,
+        "pii": "S0167494324000815",
+        "authors": {
+          "author": [
+            { "$": "Giulia Funghi" },
+            { "$": "Claudia Meli" },
+            { "$": "Alessandra Dodich" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-12-13T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352146523009031"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352146523009031?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.trpro.2023.11.605",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352146523009031",
+        "dc:title": "Transport digitalization: Business analytics results from Shift2Rail CONNECTIVE Project",
+        "dc:creator": "Stéphane Lorin",
+        "prism:publicationName": "Transportation Research Procedia",
+        "prism:volume": "72",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1412",
+        "prism:endingPage": "1419",
+        "prism:doi": "10.1016/j.trpro.2023.11.605",
+        "openaccess": true,
+        "pii": "S2352146523009031",
+        "authors": {
+          "author": [
+            { "$": "Stéphane Lorin" },
+            { "$": "Juan Manuel Castro Arias" },
+            { "$": "Fabrizio Cosso" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-09-11T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S266672152100020X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S266672152100020X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2021.100026",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S266672152100020X",
+        "dc:title": "Digital intelligence: A must-have for project managers",
+        "dc:creator": "Carl Marnewick",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "2",
+        "prism:coverDate": "2021-12-31",
+        "prism:startingPage": "100026",
+        "prism:doi": "10.1016/j.plas.2021.100026",
+        "openaccess": true,
+        "pii": "S266672152100020X",
+        "authors": { "author": [{ "$": "Carl Marnewick" }, { "$": "Annlizé Marnewick" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-08-14T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0143816623003056"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0143816623003056?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.optlaseng.2023.107776",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0143816623003056",
+        "dc:title": "Specular surface deformation measurement based on projected-speckle deflectometry with digital image correlation",
+        "dc:creator": "Chuanguo Xiong",
+        "prism:publicationName": "Optics and Lasers in Engineering",
+        "prism:volume": "170",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "107776",
+        "prism:doi": "10.1016/j.optlaseng.2023.107776",
+        "openaccess": false,
+        "pii": "S0143816623003056",
+        "authors": {
+          "author": [{ "$": "Chuanguo Xiong" }, { "$": "Yuhan Gao" }, { "$": "Fulong Zhu" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-06-09T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926580522002795"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926580522002795?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.autcon.2022.104406",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926580522002795",
+        "dc:title": "Underpass clearance checking in highway widening projects using digital twins",
+        "dc:creator": "Feng Jiang",
+        "prism:publicationName": "Automation in Construction",
+        "prism:volume": "141",
+        "prism:coverDate": "2022-09-30",
+        "prism:startingPage": "104406",
+        "prism:doi": "10.1016/j.autcon.2022.104406",
+        "openaccess": true,
+        "pii": "S0926580522002795",
+        "authors": { "author": [{ "$": "Feng Jiang" }, { "$": "Ling Ma" }, { "$": "Hanbin Luo" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-29T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405844022021053"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405844022021053?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.heliyon.2022.e10817",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405844022021053",
+        "dc:title": "How teachers manage their classroom in the digital learning environment – experiences from the University Smart Learning Project",
+        "dc:creator": "Lan Thi Nguyen",
+        "prism:publicationName": "Heliyon",
+        "prism:volume": "8",
+        "prism:coverDate": "2022-10-31",
+        "prism:startingPage": "e10817",
+        "prism:doi": "10.1016/j.heliyon.2022.e10817",
+        "openaccess": true,
+        "pii": "S2405844022021053",
+        "authors": {
+          "author": [
+            { "$": "Lan Thi Nguyen" },
+            { "$": "Issara Kanjug" },
+            { "$": "Kulthida Tuamsuk" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-01-10T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050921023152"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050921023152?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2021.12.092",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050921023152",
+        "dc:title": "Government inter-organizational, digital transformation projects: five key lessons learned from a Norwegian case study",
+        "dc:creator": "Kristin H. J. Hafseld",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "196",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "910",
+        "prism:endingPage": "919",
+        "prism:doi": "10.1016/j.procs.2021.12.092",
+        "openaccess": true,
+        "pii": "S1877050921023152",
+        "authors": {
+          "author": [
+            { "$": "Kristin H. J. Hafseld" },
+            { "$": "Bassam Hussein" },
+            { "$": "Antoine R. Rauzy" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-06-30T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352146522004938"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352146522004938?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.trpro.2022.06.238",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352146522004938",
+        "dc:title": "Digital transformation project for transportation professionals",
+        "dc:creator": "Sergey Novikov",
+        "prism:publicationName": "Transportation Research Procedia",
+        "prism:volume": "63",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "2122",
+        "prism:endingPage": "2129",
+        "prism:doi": "10.1016/j.trpro.2022.06.238",
+        "openaccess": true,
+        "pii": "S2352146522004938",
+        "authors": {
+          "author": [
+            { "$": "Sergey Novikov" },
+            { "$": "Elena Balashova" },
+            { "$": "Elena Schislyaeva" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-12T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212827123008703"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212827123008703?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procir.2023.09.138",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212827123008703",
+        "dc:title": "Using digital platforms for value chain sustainability – Cases from the Digitala Stambanan project",
+        "dc:creator": "Clarissa A. González Chávez",
+        "prism:publicationName": "Procedia CIRP",
+        "prism:volume": "120",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "1137",
+        "prism:endingPage": "1142",
+        "prism:doi": "10.1016/j.procir.2023.09.138",
+        "openaccess": true,
+        "pii": "S2212827123008703",
+        "authors": {
+          "author": [
+            { "$": "Clarissa A. González Chávez" },
+            { "$": "Arpita Chari" },
+            { "$": "Johan Stahre" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-10-26T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405896322017104"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405896322017104?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ifacol.2022.09.423",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405896322017104",
+        "dc:title": "Multi-Partners Digital Project Twin: A Tool for Project Monitoring",
+        "dc:creator": "Félicien Barhebwa-Mushamuka",
+        "prism:publicationName": "IFAC-PapersOnLine",
+        "prism:volume": "55",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "383",
+        "prism:endingPage": "388",
+        "prism:doi": "10.1016/j.ifacol.2022.09.423",
+        "openaccess": false,
+        "pii": "S2405896322017104",
+        "authors": { "author": [{ "$": "Félicien Barhebwa-Mushamuka" }, { "$": "Sarah Wagner" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-26T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0160791X24000678"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0160791X24000678?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.techsoc.2024.102519",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0160791X24000678",
+        "dc:title": "Infrastructure digital twin technology: A new paradigm for future construction industry",
+        "dc:creator": "Taofeeq D. Moshood",
+        "prism:publicationName": "Technology in Society",
+        "prism:volume": "77",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "102519",
+        "prism:doi": "10.1016/j.techsoc.2024.102519",
+        "openaccess": true,
+        "pii": "S0160791X24000678",
+        "authors": {
+          "author": [
+            { "$": "Taofeeq D. Moshood" },
+            { "$": "James OB. Rotimi" },
+            { "$": "J. A. Bamgbade" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405896323010698"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405896323010698?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ifacol.2023.10.694",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405896323010698",
+        "dc:title": "Digital Futures Challenge-Based Learning in Higher Education in Europe: The DIFUCH Erasmus+ Project",
+        "dc:creator": "John Organ",
+        "prism:publicationName": "IFAC-PapersOnLine",
+        "prism:volume": "56",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "9948",
+        "prism:endingPage": "9953",
+        "prism:doi": "10.1016/j.ifacol.2023.10.694",
+        "openaccess": false,
+        "pii": "S2405896323010698",
+        "authors": {
+          "author": [
+            { "$": "John Organ" },
+            { "$": "Ana Margarida Machado" },
+            { "$": "Nejla Karabulut" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-02-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0040162524000763"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0040162524000763?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.techfore.2024.123280",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0040162524000763",
+        "dc:title": "Designing a digital citizen-centered service",
+        "dc:creator": "Catherine Equey",
+        "prism:publicationName": "Technological Forecasting and Social Change",
+        "prism:volume": "202",
+        "prism:coverDate": "2024-05-31",
+        "prism:startingPage": "123280",
+        "prism:doi": "10.1016/j.techfore.2024.123280",
+        "openaccess": true,
+        "pii": "S0040162524000763",
+        "authors": {
+          "author": [
+            { "$": "Catherine Equey" },
+            { "$": "Athanasios Priftis" },
+            { "$": "Vanissla Hutzli" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-11T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2590123024002664"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2590123024002664?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.rineng.2024.102013",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2590123024002664",
+        "dc:title": "Digitalization in malaysian construction industry: Awareness, challenges and opportunities",
+        "dc:creator": "Muhammad Ali Musarat",
+        "prism:publicationName": "Results in Engineering",
+        "prism:volume": "21",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "102013",
+        "prism:doi": "10.1016/j.rineng.2024.102013",
+        "openaccess": true,
+        "pii": "S2590123024002664",
+        "authors": {
+          "author": [
+            { "$": "Muhammad Ali Musarat" },
+            { "$": "Wesam Salah Alaloul" },
+            { "$": "Ahsen Maqsoom" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-03-08T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877050922003040"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877050922003040?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procs.2022.01.295",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877050922003040",
+        "dc:title": "Working world 4.0: will everything remain different?! \"AWA\" project examines the changes of digitalization on a company level.",
+        "dc:creator": "Catharina Stahn",
+        "prism:publicationName": "Procedia Computer Science",
+        "prism:volume": "200",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "969",
+        "prism:endingPage": "975",
+        "prism:doi": "10.1016/j.procs.2022.01.295",
+        "openaccess": true,
+        "pii": "S1877050922003040",
+        "authors": {
+          "author": [{ "$": "Catharina Stahn" }, { "$": "Veit Hartmann" }, { "$": "Amelia Koczy" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-12-23T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212054823000541"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212054823000541?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.daach.2023.e00309",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212054823000541",
+        "dc:title": "Saving temporary exhibitions in virtual environments: The Digital Renaissance of Ulisse Aldrovandi – Acquisition and digitisation of cultural heritage objects",
+        "dc:creator": "Roberto Balzani",
+        "prism:publicationName": "Digital Applications in Archaeology and Cultural Heritage",
+        "prism:volume": "32",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "e00309",
+        "prism:doi": "10.1016/j.daach.2023.e00309",
+        "openaccess": true,
+        "pii": "S2212054823000541",
+        "authors": {
+          "author": [
+            { "$": "Roberto Balzani" },
+            { "$": "Sebastian Barzaghi" },
+            { "$": "Luca Vittuari" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-04-10T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0926580521001394"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0926580521001394?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.autcon.2021.103688",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0926580521001394",
+        "dc:title": "Integrated digital twin and blockchain framework to support accountable information sharing in construction projects",
+        "dc:creator": "Dongmin Lee",
+        "prism:publicationName": "Automation in Construction",
+        "prism:volume": "127",
+        "prism:coverDate": "2021-07-31",
+        "prism:startingPage": "103688",
+        "prism:doi": "10.1016/j.autcon.2021.103688",
+        "openaccess": false,
+        "pii": "S0926580521001394",
+        "authors": {
+          "author": [{ "$": "Dongmin Lee" }, { "$": "Sang Hyun Lee" }, { "$": "Victor C. Li" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-15T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1544612324004380"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1544612324004380?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.frl.2024.105408",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1544612324004380",
+        "dc:title": "The Impact of Tax Digitalization on Corporate Salary Structures",
+        "dc:creator": "Wei Wei",
+        "prism:publicationName": "Finance Research Letters",
+        "prism:coverDate": "2024-04-15",
+        "prism:startingPage": "105408",
+        "prism:doi": "10.1016/j.frl.2024.105408",
+        "openaccess": false,
+        "pii": "S1544612324004380",
+        "authors": { "author": [{ "$": "Wei Wei" }, { "$": "Yan Song" }, { "$": "Ruifeng Jin" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-18T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1063458424008471"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1063458424008471?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.joca.2024.02.803",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1063458424008471",
+        "dc:title": "789: A MIXED METHODS: PROJECT INVESTIGATING PATIENTS’ PREFERENCES FOR DIGITAL APPLICATIONS IN OSTEOARTHRITIS MANAGEMENT",
+        "dc:creator": "Nguyen Truong",
+        "prism:publicationName": "Osteoarthritis and Cartilage",
+        "prism:volume": "32",
+        "prism:coverDate": "2024-04-30",
+        "prism:startingPage": "s539",
+        "prism:endingPage": "s540",
+        "prism:doi": "10.1016/j.joca.2024.02.803",
+        "openaccess": false,
+        "pii": "S1063458424008471",
+        "authors": { "author": [{ "$": "Nguyen Truong" }, { "$": "Tanja Stamm" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-08-18T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352556822001242"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352556822001242?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.accpm.2022.101143",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352556822001242",
+        "dc:title": "How traditional and digital analytics interventions can enhance lung-protective ventilation strategies during general anaesthesia: A two-year quality improvement project analysis",
+        "dc:creator": "Cléa Gandon",
+        "prism:publicationName": "Anaesthesia Critical Care & Pain Medicine",
+        "prism:volume": "41",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "101143",
+        "prism:doi": "10.1016/j.accpm.2022.101143",
+        "openaccess": false,
+        "pii": "S2352556822001242",
+        "authors": {
+          "author": [{ "$": "Cléa Gandon" }, { "$": "Yann Gricourt" }, { "$": "Philippe Cuvillon" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-02T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666168323013897"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666168323013897?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/S2666-1683(23)01389-7",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666168323013897",
+        "dc:title": "P092: Real-life feasibility study of a digital health platform for prostate cancer survivors: Preliminary results from the Greek cohort of the LifeChamps project",
+        "dc:creator": "P. Sountoulides",
+        "prism:publicationName": "European Urology Open Science",
+        "prism:volume": "57",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "s140",
+        "prism:doi": "10.1016/S2666-1683(23)01389-7",
+        "openaccess": true,
+        "pii": "S2666168323013897",
+        "authors": {
+          "author": [{ "$": "P. Sountoulides" }, { "$": "E Kartsidis" }, { "$": "A. S. Billis" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1389128624001828"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1389128624001828?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.comnet.2024.110350",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1389128624001828",
+        "dc:title": "A comprehensive survey on digital twin for future networks and emerging Internet of Things industry",
+        "dc:creator": "Akram Hakiri",
+        "prism:publicationName": "Computer Networks",
+        "prism:volume": "244",
+        "prism:coverDate": "2024-05-31",
+        "prism:startingPage": "110350",
+        "prism:doi": "10.1016/j.comnet.2024.110350",
+        "openaccess": false,
+        "pii": "S1389128624001828",
+        "authors": {
+          "author": [
+            { "$": "Akram Hakiri" },
+            { "$": "Aniruddha Gokhale" },
+            { "$": "Nedra Mellouli" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-05-21T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0166497222000979"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0166497222000979?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.technovation.2022.102550",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0166497222000979",
+        "dc:title": "Digital innovation and organizational changes in the healthcare sector: Multiple case studies of telemedicine project implementation",
+        "dc:creator": "Lorella Cannavacciuolo",
+        "prism:publicationName": "Technovation",
+        "prism:volume": "120",
+        "prism:coverDate": "2023-02-28",
+        "prism:startingPage": "102550",
+        "prism:doi": "10.1016/j.technovation.2022.102550",
+        "openaccess": false,
+        "pii": "S0166497222000979",
+        "authors": {
+          "author": [
+            { "$": "Lorella Cannavacciuolo" },
+            { "$": "Guido Capaldo" },
+            { "$": "Cristina Ponsiglione" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-01-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/B9780128239131000403"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/B9780128239131000403?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/B978-0-12-823913-1.00040-3",
+        "prism:url": "https://api.elsevier.com/content/article/pii/B9780128239131000403",
+        "dc:title": "Chapter 1: From the visible human project to the digital twin",
+        "dc:creator": "Gunther Paul",
+        "prism:publicationName": "Digital Human Modeling and Medicine",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "3",
+        "prism:endingPage": "17",
+        "prism:doi": "10.1016/B978-0-12-823913-1.00040-3",
+        "openaccess": false,
+        "pii": "B9780128239131000403",
+        "authors": { "author": "Gunther Paul" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-17T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1755581724000373"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1755581724000373?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.cirpj.2024.03.007",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1755581724000373",
+        "dc:title": "Device recognition assistants as additional data management method for Digital Twins",
+        "dc:creator": "Sören Dittmann",
+        "prism:publicationName": "CIRP Journal of Manufacturing Science and Technology",
+        "prism:volume": "51",
+        "prism:coverDate": "2024-07-31",
+        "prism:startingPage": "73",
+        "prism:endingPage": "90",
+        "prism:doi": "10.1016/j.cirpj.2024.03.007",
+        "openaccess": false,
+        "pii": "S1755581724000373",
+        "authors": {
+          "author": [
+            { "$": "Sören Dittmann" },
+            { "$": "Marc-Philipp Mathieu" },
+            { "$": "Franz Dietrich" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-31T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1472811724000144"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1472811724000144?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijme.2024.100943",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1472811724000144",
+        "dc:title": "Digital transformation leaders wanted: How to prepare students for the ever-changing demands of the labor market",
+        "dc:creator": "Hana Kopackova",
+        "prism:publicationName": "The International Journal of Management Education",
+        "prism:volume": "22",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "100943",
+        "prism:doi": "10.1016/j.ijme.2024.100943",
+        "openaccess": false,
+        "pii": "S1472811724000144",
+        "authors": {
+          "author": [
+            { "$": "Hana Kopackova" },
+            { "$": "Stanislava Simonova" },
+            { "$": "Irena Reimannova" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-08-06T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0883902621000501"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0883902621000501?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jbusvent.2021.106140",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0883902621000501",
+        "dc:title": "Habitual entrepreneurship in digital platform ecosystems: A time-contingent model of learning from prior software project experiences",
+        "dc:creator": "Terence Fan",
+        "prism:publicationName": "Journal of Business Venturing",
+        "prism:volume": "36",
+        "prism:coverDate": "2021-09-30",
+        "prism:startingPage": "106140",
+        "prism:doi": "10.1016/j.jbusvent.2021.106140",
+        "openaccess": false,
+        "pii": "S0883902621000501",
+        "authors": {
+          "author": [{ "$": "Terence Fan" }, { "$": "Andreas Schwab" }, { "$": "Xuesong Geng" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-04-21T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/B9780323992084000180"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/B9780323992084000180?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/B978-0-32-399208-4.00018-0",
+        "prism:url": "https://api.elsevier.com/content/article/pii/B9780323992084000180",
+        "dc:title": "Chapter 10: Multicriteria decision making approach for selection and prioritization of projects into the digital transformation journey",
+        "dc:creator": "José Maurício Mottin de Andrade",
+        "prism:publicationName": "Designing Smart Manufacturing Systems",
+        "prism:coverDate": "2023-12-31",
+        "prism:startingPage": "235",
+        "prism:endingPage": "259",
+        "prism:doi": "10.1016/B978-0-32-399208-4.00018-0",
+        "openaccess": false,
+        "pii": "B9780323992084000180",
+        "authors": {
+          "author": [
+            { "$": "José Maurício Mottin de Andrade" },
+            { "$": "Eduardo de Freitas Rocha Loures" },
+            { "$": "Igor Thonke" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-26T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0306457324000153"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0306457324000153?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ipm.2024.103655",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306457324000153",
+        "dc:title": "Risk disclosure and entrepreneurial resource acquisition in crowdfunding digital platforms: Evidence from digital technology ventures",
+        "dc:creator": "Hong Huo",
+        "prism:publicationName": "Information Processing & Management",
+        "prism:volume": "61",
+        "prism:coverDate": "2024-05-31",
+        "prism:startingPage": "103655",
+        "prism:doi": "10.1016/j.ipm.2024.103655",
+        "openaccess": true,
+        "pii": "S0306457324000153",
+        "authors": {
+          "author": [{ "$": "Hong Huo" }, { "$": "Chen Wang" }, { "$": "Wen-Long Shang" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S235271022400041X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S235271022400041X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jobe.2024.108474",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S235271022400041X",
+        "dc:title": "Critical barriers to the adoption of integrated digital delivery in the construction industry",
+        "dc:creator": "Ibrahim Yahaya Wuni",
+        "prism:publicationName": "Journal of Building Engineering",
+        "prism:volume": "83",
+        "prism:coverDate": "2024-04-15",
+        "prism:startingPage": "108474",
+        "prism:doi": "10.1016/j.jobe.2024.108474",
+        "openaccess": false,
+        "pii": "S235271022400041X",
+        "authors": {
+          "author": [
+            { "$": "Ibrahim Yahaya Wuni" },
+            { "$": "Derek Asante Abankwa" },
+            { "$": "Maxwell Fordjour Antwi-Afari" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-08T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1120179723008748"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1120179723008748?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ejmp.2023.102864",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1120179723008748",
+        "dc:title": "MO-10.1: THE AI-FLOPP PROJECT, FEDERATED LEARNING AS A STEP FORWARD IN DIGITAL PATHOLOGY: A MULTI-CENTRIC PIPELINE AND QA PLATFORM TO SUPPORT AI-BASED DIAGNOSIS OF PROSTATE CANCER",
+        "dc:creator": "M. Iori",
+        "prism:publicationName": "Physica Medica",
+        "prism:volume": "115",
+        "prism:coverDate": "2023-11-30",
+        "prism:startingPage": "102864",
+        "prism:doi": "10.1016/j.ejmp.2023.102864",
+        "openaccess": false,
+        "pii": "S1120179723008748",
+        "authors": {
+          "author": [{ "$": "M. Iori" }, { "$": "M. Barbareschi" }, { "$": "C. Doglioni" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-29T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0963869522001505"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0963869522001505?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ndteint.2022.102751",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0963869522001505",
+        "dc:title": "3D positioning of defects for gas turbine blades based on digital radiographic projective imaging",
+        "dc:creator": "Lei Chen",
+        "prism:publicationName": "NDT & E International",
+        "prism:volume": "133",
+        "prism:coverDate": "2023-01-31",
+        "prism:startingPage": "102751",
+        "prism:doi": "10.1016/j.ndteint.2022.102751",
+        "openaccess": false,
+        "pii": "S0963869522001505",
+        "authors": { "author": [{ "$": "Lei Chen" }, { "$": "Bing Li" }, { "$": "Zhongyu Shang" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-01-17T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0925527322000068"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0925527322000068?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ijpe.2022.108413",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0925527322000068",
+        "dc:title": "Digital transformation in project-based manufacturing: Developing the ISA-95 model for vertical integration",
+        "dc:creator": "Lütfi Apilioğulları",
+        "prism:publicationName": "International Journal of Production Economics",
+        "prism:volume": "245",
+        "prism:coverDate": "2022-03-31",
+        "prism:startingPage": "108413",
+        "prism:doi": "10.1016/j.ijpe.2022.108413",
+        "openaccess": false,
+        "pii": "S0925527322000068",
+        "authors": { "author": "Lütfi Apilioğulları" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-31T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0308521X24000325"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0308521X24000325?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.agsy.2024.103882",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0308521X24000325",
+        "dc:title": "Fostering social inclusion in development-oriented digital food system interventions",
+        "dc:creator": "Jonathan Steinke",
+        "prism:publicationName": "Agricultural Systems",
+        "prism:volume": "215",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "103882",
+        "prism:doi": "10.1016/j.agsy.2024.103882",
+        "openaccess": true,
+        "pii": "S0308521X24000325",
+        "authors": {
+          "author": [
+            { "$": "Jonathan Steinke" },
+            { "$": "Charlotte Schumann" },
+            { "$": "Jacob van Etten" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-01-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0740624X2100006X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0740624X2100006X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.giq.2021.101570",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0740624X2100006X",
+        "dc:title": "Sensemaking and social processes in digital government projects",
+        "dc:creator": "Luis Felipe Luna-Reyes",
+        "prism:publicationName": "Government Information Quarterly",
+        "prism:volume": "38",
+        "prism:coverDate": "2021-04-30",
+        "prism:startingPage": "101570",
+        "prism:doi": "10.1016/j.giq.2021.101570",
+        "openaccess": false,
+        "pii": "S0740624X2100006X",
+        "authors": {
+          "author": [
+            { "$": "Luis Felipe Luna-Reyes" },
+            { "$": "David F. Andersen" },
+            { "$": "Theresa A. Pardo" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S016649722400049X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S016649722400049X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.technovation.2024.102999",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S016649722400049X",
+        "dc:title": "Leveraging corporate digitalization for green technology innovation: The mediating role of resource endowments",
+        "dc:creator": "Yanmin Shao",
+        "prism:publicationName": "Technovation",
+        "prism:volume": "133",
+        "prism:coverDate": "2024-05-31",
+        "prism:startingPage": "102999",
+        "prism:doi": "10.1016/j.technovation.2024.102999",
+        "openaccess": false,
+        "pii": "S016649722400049X",
+        "authors": {
+          "author": [{ "$": "Yanmin Shao" }, { "$": "Kunliang Xu" }, { "$": "Yuan George Shan" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-09T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666378324000072"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666378324000072?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.diggeo.2024.100085",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666378324000072",
+        "dc:title": "Evolving spatialities of digital life: Troubling the smart city/home divide",
+        "dc:creator": "Casey R. Lynch",
+        "prism:publicationName": "Digital Geography and Society",
+        "prism:volume": "6",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "100085",
+        "prism:doi": "10.1016/j.diggeo.2024.100085",
+        "openaccess": true,
+        "pii": "S2666378324000072",
+        "authors": { "author": [{ "$": "Casey R. Lynch" }, { "$": "Miriam E. Sweeney" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-01-02T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0038012122003093"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0038012122003093?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.seps.2022.101502",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0038012122003093",
+        "dc:title": "Creating customer, museum and social value through digital technologies: Evidence from the MANN Assiri project",
+        "dc:creator": "Filomena Izzo",
+        "prism:publicationName": "Socio-Economic Planning Sciences",
+        "prism:volume": "85",
+        "prism:coverDate": "2023-02-28",
+        "prism:startingPage": "101502",
+        "prism:doi": "10.1016/j.seps.2022.101502",
+        "openaccess": false,
+        "pii": "S0038012122003093",
+        "authors": {
+          "author": [
+            { "$": "Filomena Izzo" },
+            { "$": "Ida Camminatiello" },
+            { "$": "Rosaria Lombardo" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-09T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2352340924003652"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2352340924003652?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.dib.2024.110396",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352340924003652",
+        "dc:title": "Digital skills among youth: A dataset from a three-wave longitudinal survey in six European countries",
+        "dc:creator": "Hana Machackova",
+        "prism:publicationName": "Data in Brief",
+        "prism:volume": "54",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "110396",
+        "prism:doi": "10.1016/j.dib.2024.110396",
+        "openaccess": true,
+        "pii": "S2352340924003652",
+        "authors": {
+          "author": [
+            { "$": "Hana Machackova" },
+            { "$": "Marie Jaron Bedrosova" },
+            { "$": "Ellen Johanna Helsper" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-11-08T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666721522000278"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666721522000278?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.plas.2022.100067",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666721522000278",
+        "dc:title": "Special collection in <ce:bold>Project Leadership and Society</ce:bold>: Call for papers on the role of digitalization in project management",
+        "prism:publicationName": "Project Leadership and Society",
+        "prism:volume": "3",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "100067",
+        "prism:doi": "10.1016/j.plas.2022.100067",
+        "openaccess": true,
+        "pii": "S2666721522000278",
+        "authors": null
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-07T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212054824000195"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212054824000195?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.daach.2024.e00334",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212054824000195",
+        "dc:title": "Advanced interactive digital storytelling in digital heritage applications",
+        "dc:creator": "Selma Rizvic",
+        "prism:publicationName": "Digital Applications in Archaeology and Cultural Heritage",
+        "prism:volume": "33",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "e00334",
+        "prism:doi": "10.1016/j.daach.2024.e00334",
+        "openaccess": false,
+        "pii": "S2212054824000195",
+        "authors": {
+          "author": [
+            { "$": "Selma Rizvic" },
+            { "$": "Dusanka Boskovic" },
+            { "$": "Bojan Mijatovic" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-09-17T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S258891412200020X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S258891412200020X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ceh.2022.09.001",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S258891412200020X",
+        "dc:title": "Development of digital intervention through a mobile phone application as an adjunctive treatment for bipolar disorder: <ce:italic>MyBee</ce:italic> project",
+        "dc:creator": "Caroline Encinas Audibert",
+        "prism:publicationName": "Clinical eHealth",
+        "prism:volume": "5",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "72",
+        "prism:endingPage": "78",
+        "prism:doi": "10.1016/j.ceh.2022.09.001",
+        "openaccess": true,
+        "pii": "S258891412200020X",
+        "authors": {
+          "author": [
+            { "$": "Caroline Encinas Audibert" },
+            { "$": "Adna de Moura Fereli Reis" },
+            { "$": "Sandra Odebrecht Vargas Nunes" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-23T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2405844024060250"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2405844024060250?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.heliyon.2024.e29994",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2405844024060250",
+        "dc:title": "Empowering Sustainable Manufacturing: Unleashing Digital Innovation in Spool Fabrication Industries",
+        "dc:creator": "Kiran Sankar M.S",
+        "prism:publicationName": "Heliyon",
+        "prism:coverDate": "2024-04-23",
+        "prism:startingPage": "e29994",
+        "prism:doi": "10.1016/j.heliyon.2024.e29994",
+        "openaccess": true,
+        "pii": "S2405844024060250",
+        "authors": {
+          "author": [
+            { "$": "Kiran Sankar M.S" },
+            { "$": "Sumit Gupta" },
+            { "$": "Ashutosh Samadhiya" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-04-17T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2210422423000382"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2210422423000382?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.eist.2023.100728",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2210422423000382",
+        "dc:title": "Megaprojects as niches of sociotechnical transitions: The case of digitalization in UK construction",
+        "dc:creator": "Dr Eleni Papadonikolaki",
+        "prism:publicationName": "Environmental Innovation and Societal Transitions",
+        "prism:volume": "48",
+        "prism:coverDate": "2023-09-30",
+        "prism:startingPage": "100728",
+        "prism:doi": "10.1016/j.eist.2023.100728",
+        "openaccess": true,
+        "pii": "S2210422423000382",
+        "authors": {
+          "author": [
+            { "$": "Dr Eleni Papadonikolaki" },
+            { "$": "Dr Bethan Morgan" },
+            { "$": "Dr George Papachristos" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-01-10T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0275531924000114"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0275531924000114?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ribaf.2024.102219",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0275531924000114",
+        "dc:title": "The effect of digitalized tax administration on stock price crash risk: A natural experiment in China",
+        "dc:creator": "Deli Wang",
+        "prism:publicationName": "Research in International Business and Finance",
+        "prism:volume": "69",
+        "prism:coverDate": "2024-04-30",
+        "prism:startingPage": "102219",
+        "prism:doi": "10.1016/j.ribaf.2024.102219",
+        "openaccess": false,
+        "pii": "S0275531924000114",
+        "authors": { "author": [{ "$": "Deli Wang" }, { "$": "Yaya Shi" }, { "$": "Qian Li" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2020-03-30T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0959652620314438"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0959652620314438?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jclepro.2020.121396",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0959652620314438",
+        "dc:title": "Integrated Digital Delivery: Implementation status and project performance in the Singapore construction industry",
+        "dc:creator": "Bon-Gang Hwang",
+        "prism:publicationName": "Journal of Cleaner Production",
+        "prism:volume": "262",
+        "prism:coverDate": "2020-07-20",
+        "prism:startingPage": "121396",
+        "prism:doi": "10.1016/j.jclepro.2020.121396",
+        "openaccess": false,
+        "pii": "S0959652620314438",
+        "authors": {
+          "author": [
+            { "$": "Bon-Gang Hwang" },
+            { "$": "Jasmine Ngo" },
+            { "$": "Priscilla Wan Yi Her" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-02-04T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2666378324000011"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2666378324000011?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.diggeo.2024.100079",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2666378324000011",
+        "dc:title": "Follow the digital: Methodological thoughts on doing everyday geographies in a digital world",
+        "dc:creator": "Chen Liu",
+        "prism:publicationName": "Digital Geography and Society",
+        "prism:volume": "6",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "100079",
+        "prism:doi": "10.1016/j.diggeo.2024.100079",
+        "openaccess": true,
+        "pii": "S2666378324000011",
+        "authors": { "author": "Chen Liu" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-15T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1544612324004525"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1544612324004525?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.frl.2024.105422",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1544612324004525",
+        "dc:title": "CFO narcissism and corporate digital transformation<ce:sup loc=post>✰</ce:sup>",
+        "dc:creator": "Wenyun Yao",
+        "prism:publicationName": "Finance Research Letters",
+        "prism:volume": "64",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "105422",
+        "prism:doi": "10.1016/j.frl.2024.105422",
+        "openaccess": false,
+        "pii": "S1544612324004525",
+        "authors": {
+          "author": [{ "$": "Wenyun Yao" }, { "$": "Mengjiao Ni" }, { "$": "Xiaona Cui" }]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-12-08T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S235214652100778X"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S235214652100778X?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.trpro.2021.11.019",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S235214652100778X",
+        "dc:title": "The DIGNITY Project - Toward a System of Inclusive Digital Mobility in the Barcelona Metropolitan Area",
+        "dc:creator": "Elisabet Roca Bosch",
+        "prism:publicationName": "Transportation Research Procedia",
+        "prism:volume": "58",
+        "prism:coverDate": "2021-12-31",
+        "prism:startingPage": "134",
+        "prism:endingPage": "141",
+        "prism:doi": "10.1016/j.trpro.2021.11.019",
+        "openaccess": true,
+        "pii": "S235214652100778X",
+        "authors": {
+          "author": [
+            { "$": "Elisabet Roca Bosch" },
+            { "$": "Bartosz Wybraniec" },
+            { "$": "Àlvar Garola Crespo" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-11-24T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1364032123009231"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1364032123009231?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.rser.2023.114065",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1364032123009231",
+        "dc:title": "Marine energy digitalization digital twin's approaches",
+        "dc:creator": "Meysam Majidi Nezhad",
+        "prism:publicationName": "Renewable and Sustainable Energy Reviews",
+        "prism:volume": "191",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "114065",
+        "prism:doi": "10.1016/j.rser.2023.114065",
+        "openaccess": true,
+        "pii": "S1364032123009231",
+        "authors": {
+          "author": [
+            { "$": "Meysam Majidi Nezhad" },
+            { "$": "Mehdi Neshat" },
+            { "$": "Davide Astiaso Garcia" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-01-27T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0378378223000130"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0378378223000130?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.earlhumdev.2023.105717",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378378223000130",
+        "dc:title": "Acceptability and feasibility of a digital educational intervention designed to improve the psychological well-being of parents with a preterm infant at the neonatal intensive care unit: A pilot project",
+        "dc:creator": "Kimberley Collette",
+        "prism:publicationName": "Early Human Development",
+        "prism:volume": "176",
+        "prism:coverDate": "2023-01-31",
+        "prism:startingPage": "105717",
+        "prism:doi": "10.1016/j.earlhumdev.2023.105717",
+        "openaccess": false,
+        "pii": "S0378378223000130",
+        "authors": {
+          "author": [
+            { "$": "Kimberley Collette" },
+            { "$": "Nancy Feeley" },
+            { "$": "Valérie Lebel" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2022-03-10T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212827122001731"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212827122001731?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procir.2022.02.172",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212827122001731",
+        "dc:title": "Open-Digital-Industrial and Networking pilot lines using modular components for scalable production – ODIN project approach",
+        "dc:creator": "Sotiris Makris",
+        "prism:publicationName": "Procedia CIRP",
+        "prism:volume": "106",
+        "prism:coverDate": "2022-12-31",
+        "prism:startingPage": "162",
+        "prism:endingPage": "167",
+        "prism:doi": "10.1016/j.procir.2022.02.172",
+        "openaccess": true,
+        "pii": "S2212827122001731",
+        "authors": {
+          "author": [
+            { "$": "Sotiris Makris" },
+            { "$": "George Michalos" },
+            { "$": "Spyridon Koukas" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-02-22T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0022391324000581"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0022391324000581?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.prosdent.2024.01.026",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0022391324000581",
+        "dc:title": "Improving the accuracy of complete arch implant intraoral digital scans by using horizontal scan bodies with occlusal geometry: A dental technique",
+        "dc:creator": "Olatz Etxaniz",
+        "prism:publicationName": "The Journal of Prosthetic Dentistry",
+        "prism:coverDate": "2024-02-22",
+        "prism:doi": "10.1016/j.prosdent.2024.01.026",
+        "openaccess": true,
+        "pii": "S0022391324000581",
+        "authors": {
+          "author": [
+            { "$": "Olatz Etxaniz" },
+            { "$": "Xabier Amezua" },
+            { "$": "Eneko Solaberrieta" }
+          ]
+        }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-04-13T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S1877916624000158"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S1877916624000158?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.ccs.2024.100580",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1877916624000158",
+        "dc:title": "Bridging the urban-digital divide: Crowdfunding as an online middleground space",
+        "dc:creator": "Carolina Dalla Chiesa",
+        "prism:publicationName": "City, Culture and Society",
+        "prism:volume": "37",
+        "prism:coverDate": "2024-06-30",
+        "prism:startingPage": "100580",
+        "prism:doi": "10.1016/j.ccs.2024.100580",
+        "openaccess": true,
+        "pii": "S1877916624000158",
+        "authors": { "author": [{ "$": "Carolina Dalla Chiesa" }, { "$": "Anders Rykkja" }] }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2021-06-02T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2212827121005825"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2212827121005825?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.procir.2021.05.110",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2212827121005825",
+        "dc:title": "Digital and distributed project management in mechanical engineering studies – a case study",
+        "dc:creator": "Carsten Stechert",
+        "prism:publicationName": "Procedia CIRP",
+        "prism:volume": "100",
+        "prism:coverDate": "2021-12-31",
+        "prism:startingPage": "500",
+        "prism:endingPage": "505",
+        "prism:doi": "10.1016/j.procir.2021.05.110",
+        "openaccess": true,
+        "pii": "S2212827121005825",
+        "authors": { "author": "Carsten Stechert" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2023-12-14T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S0740624X23001004"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S0740624X23001004?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.giq.2023.101900",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0740624X23001004",
+        "dc:title": "Inclusion interrupted: Lessons from the making of a digital assistant by and for people with disability",
+        "dc:creator": "Georgia van Toorn",
+        "prism:publicationName": "Government Information Quarterly",
+        "prism:volume": "41",
+        "prism:coverDate": "2024-03-31",
+        "prism:startingPage": "101900",
+        "prism:doi": "10.1016/j.giq.2023.101900",
+        "openaccess": true,
+        "pii": "S0740624X23001004",
+        "authors": { "author": "Georgia van Toorn" }
+      },
+      {
+        "@_fa": "true",
+        "load-date": "2024-03-06T00:00:00.000Z",
+        "link": [
+          {
+            "@_fa": "true",
+            "@ref": "self",
+            "@href": "https://api.elsevier.com/content/article/pii/S2667096824000156"
+          },
+          {
+            "@_fa": "true",
+            "@ref": "scidir",
+            "@href": "https://www.sciencedirect.com/science/article/pii/S2667096824000156?dgcid=api_sd_search-api-endpoint"
+          }
+        ],
+        "dc:identifier": "DOI:10.1016/j.jjimei.2024.100226",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2667096824000156",
+        "dc:title": "Investigating potential barriers to construction digitalization in emerging economies: A study in Vietnam",
+        "dc:creator": "Nguyen Van Tam",
+        "prism:publicationName": "International Journal of Information Management Data Insights",
+        "prism:volume": "4",
+        "prism:coverDate": "2024-04-30",
+        "prism:startingPage": "100226",
+        "prism:doi": "10.1016/j.jjimei.2024.100226",
+        "openaccess": true,
+        "pii": "S2667096824000156",
+        "authors": {
+          "author": [
+            { "$": "Nguyen Van Tam" },
+            { "$": "Nguyen Quoc Toan" },
+            { "$": "Vu Van Phong" }
+          ]
+        }
+      }
+    ]
+  }
+}
