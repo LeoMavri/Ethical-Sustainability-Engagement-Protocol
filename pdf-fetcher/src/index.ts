@@ -12,16 +12,12 @@ const limiter = new Bottleneck({
   minTime: 750, // Minimum time between job starts is 500ms
 });
 
-const { ApiKey, QueryString, ItemsPerQuery, UpperLimit } = Constants;
+const { ApiKey, QueryString, ItemsPerQuery, UpperLimit, StartYear, EndYear } = Constants;
 
 const SavedItems: {
   doi: string;
   year: number;
 }[] = [];
-
-let VariableCount = ItemsPerQuery;
-
-// add middleware to axios in case it errors
 
 axios.interceptors.response.use(
   response => response,
@@ -30,17 +26,6 @@ axios.interceptors.response.use(
       console.log('Rate limit exceeded, waiting for 2 seconds');
       await new Promise(resolve => setTimeout(resolve, 2_000));
       return axios.request(error.config);
-    }
-
-    if (error.response?.status === 400) {
-      VariableCount -= 10;
-      console.log(`Reducing items per query to ${VariableCount}`);
-      console.debug(error.response.data);
-      const url = new URL(error.config.url);
-      url.searchParams.set('count', VariableCount.toString());
-      error.config.url = url.toString();
-      console.log(url.toString());
-      return await limiter.schedule(() => axios.request(error.config));
     }
 
     throw error;
@@ -70,6 +55,9 @@ async function main() {
   url.searchParams.append('apiKey', ApiKey);
   url.searchParams.append('httpAccept', 'application/json');
   url.searchParams.append('count', ItemsPerQuery.toString());
+  url.searchParams.append('date', `${StartYear}-${EndYear}`);
+
+  console.log(url.toString());
 
   while (currentCount <= UpperLimit) {
     url.searchParams.set('start', currentCount.toString());
@@ -79,7 +67,9 @@ async function main() {
     const { data } = response;
     const result = data['search-results'];
 
-    console.log(`Got ${result.entry.length.toLocaleString()} results on this page`);
+    console.log(
+      `Got ${result.entry.length.toLocaleString()} (${result['opensearch:totalResults']}) results on this page`
+    );
 
     for (const entry of result.entry) {
       const doi = entry['prism:doi'];
@@ -89,12 +79,12 @@ async function main() {
       SavedItems.push({ doi, year });
     }
 
-    if (parseInt(result['opensearch:totalResults']) <= currentCount + VariableCount) {
+    if (parseInt(result['opensearch:totalResults']) <= currentCount + ItemsPerQuery) {
       console.log(`Fetched all ${SavedItems.length.toLocaleString()} items`);
       break;
     }
 
-    currentCount += VariableCount;
+    currentCount += ItemsPerQuery;
   }
 
   console.log(`Fetched ${SavedItems.length.toLocaleString()} items`);
@@ -107,7 +97,9 @@ async function main() {
     'utf-8'
   );
 
-  console.log(`Saved to ./result/${time}-${SavedItems.length}-${QueryString}.json`);
+  console.log(
+    `Saved to ./result/${time}-${SavedItems.length}-${QueryString}-${StartYear}-${EndYear}.json`
+  );
 }
 
 process.on('unhandledRejection', (reason, promise) => {
