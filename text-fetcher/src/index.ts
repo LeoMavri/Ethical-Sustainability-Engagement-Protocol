@@ -1,4 +1,4 @@
-import type { FullTextRetrieval } from './full-text-types.js';
+// import type { FullTextRetrieval } from './full-text-types.js';
 import type { SearchResults } from './search-types.js';
 
 import Constants from './constants.js';
@@ -71,7 +71,7 @@ async function main() {
   console.log(`Fetching items from ${currentCount} to ${UpperLimit}...`);
   console.debug(`URL: ${url.toString()}`);
 
-  while (currentCount <= UpperLimit) {
+  while (currentCount < UpperLimit) {
     url.searchParams.set('start', currentCount.toString());
 
     let response = null;
@@ -81,10 +81,16 @@ async function main() {
     } catch (err) {
       console.error(`Failed to fetch items: ${err.message}`);
 
+      if (SavedItems.length === 0) return;
+
       await writeFile(
         `./result/${time}-${SavedItems.length}-${StartYear}-${EndYear}-Partial.json`,
         JSON.stringify(SavedItems, null, 2),
         'utf-8'
+      );
+
+      console.log(
+        `Saved ${SavedItems.length.toLocaleString()} results to ./result/${time}-${SavedItems.length}-${StartYear}-${EndYear}-Partial.json`
       );
 
       return;
@@ -93,11 +99,8 @@ async function main() {
     const { data } = response;
     const result = data['search-results'];
 
-    console.log(
-      `[${++count}] Got ${result.entry.length.toLocaleString()} (${result['opensearch:totalResults']}) results on this page`
-    );
-
     for (const entry of result.entry) {
+      if (!entry.openaccess) continue;
       const doi = entry['prism:doi'];
       const title = entry['dc:title'];
       const date = new Date(entry['prism:coverDate']);
@@ -105,6 +108,10 @@ async function main() {
 
       SavedItems.push({ doi, year, title });
     }
+
+    console.log(
+      `[${++count}] Got ${result.entry.length} items. Total: ${SavedItems.length.toLocaleString()}`
+    );
 
     if (parseInt(result['opensearch:totalResults']) <= currentCount + ItemsPerQuery) {
       console.log(`Fetched all ${SavedItems.length.toLocaleString()} items`);
