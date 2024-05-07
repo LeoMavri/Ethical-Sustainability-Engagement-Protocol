@@ -8,7 +8,7 @@ import { FullTextRetrieval } from './full-text-types';
 const { ApiKey } = Constants;
 
 const limiter = new Bottleneck({
-  minTime: 110, // Minimum time between job starts is 550ms
+  minTime: 110,
 });
 
 axios.interceptors.response.use(
@@ -26,7 +26,6 @@ axios.interceptors.response.use(
 
 async function main(): Promise<void> {
   const files = await readdir('./result');
-  let startFrom = 0;
 
   for (const file of files) {
     const content = await readFile(`./result/${file}`, 'utf-8');
@@ -69,9 +68,10 @@ async function main(): Promise<void> {
 
         console.log(`[${++counter}] Fetched article ${doi} from ${year}`);
 
-        const data = response.data['full-text-retrieval-response'];
+        const d: FullTextRetrieval = response.data;
+        const data = d['full-text-retrieval-response'];
 
-        if (data.coredata.openaccess == '0') {
+        if (typeof data['originalText'] !== 'string') {
           console.log(`[${doi}] ${data.coredata.openaccess}`);
           console.log('Article is not open access, skipping\n');
           ++closedAccess;
@@ -102,7 +102,7 @@ async function main(): Promise<void> {
     await writeFile(`./full-text/${year}.json`, JSON.stringify(YearResult, null, 2), 'utf-8');
     console.log(`Finished extracting text for year ${year}\n`);
     console.log(
-      `Closed access articles: ${closedAccess.toLocaleString()} / ${json.length.toLocaleString()} (${(json.length / closedAccess).toFixed(2)}%)\n`
+      `Closed access articles: ${closedAccess.toLocaleString()} / ${json.length.toLocaleString()} (${((closedAccess / json.length) * 100).toFixed(2)}%)\n`
     );
   }
 }
