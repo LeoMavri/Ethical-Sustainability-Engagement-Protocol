@@ -9,7 +9,7 @@ import { writeFile } from 'node:fs/promises';
 import axios from 'axios';
 
 const limiter = new Bottleneck({
-  minTime: 750, // Minimum time between job starts is 500ms
+  minTime: 550, // Minimum time between job starts is 550ms
 });
 
 const { ApiKey, QueryString, ItemsPerQuery, UpperLimit, StartYear, EndYear } = Constants;
@@ -17,6 +17,7 @@ const { ApiKey, QueryString, ItemsPerQuery, UpperLimit, StartYear, EndYear } = C
 const SavedItems: {
   doi: string;
   year: number;
+  title: string;
 }[] = [];
 
 axios.interceptors.response.use(
@@ -55,28 +56,54 @@ async function main() {
   url.searchParams.append('apiKey', ApiKey);
   url.searchParams.append('httpAccept', 'application/json');
   url.searchParams.append('count', ItemsPerQuery.toString());
-  url.searchParams.append('date', `${StartYear}-${EndYear}`);
 
-  console.log(url.toString());
+  if (StartYear === EndYear) {
+    url.searchParams.append('date', `${StartYear}`);
+    console.log(`Fetching items from ${StartYear} only.`);
+  } else {
+    url.searchParams.append('date', `${StartYear}-${EndYear}`);
+    console.log(`Fetching items from ${StartYear} to ${EndYear}.`);
+  }
+
+  const time = Date.now();
+  let count = 0;
+
+  console.log(`Fetching items from ${currentCount} to ${UpperLimit}...`);
+  console.debug(`URL: ${url.toString()}`);
 
   while (currentCount <= UpperLimit) {
     url.searchParams.set('start', currentCount.toString());
 
-    const response = await limiter.schedule(() => get<SearchResults>(url.toString()));
+    let response = null;
+
+    try {
+      response = await limiter.schedule(() => get<SearchResults>(url.toString()));
+    } catch (err) {
+      console.error(`Failed to fetch items: ${err.message}`);
+
+      await writeFile(
+        `./result/${time}-${SavedItems.length}-${StartYear}-${EndYear}-Partial.json`,
+        JSON.stringify(SavedItems, null, 2),
+        'utf-8'
+      );
+
+      return;
+    }
 
     const { data } = response;
     const result = data['search-results'];
 
     console.log(
-      `Got ${result.entry.length.toLocaleString()} (${result['opensearch:totalResults']}) results on this page`
+      `[${++count}] Got ${result.entry.length.toLocaleString()} (${result['opensearch:totalResults']}) results on this page`
     );
 
     for (const entry of result.entry) {
       const doi = entry['prism:doi'];
+      const title = entry['dc:title'];
       const date = new Date(entry['prism:coverDate']);
       const year = date.getFullYear();
 
-      SavedItems.push({ doi, year });
+      SavedItems.push({ doi, year, title });
     }
 
     if (parseInt(result['opensearch:totalResults']) <= currentCount + ItemsPerQuery) {
@@ -89,21 +116,18 @@ async function main() {
 
   console.log(`Fetched ${SavedItems.length.toLocaleString()} items`);
 
-  const time = Date.now();
-
   await writeFile(
-    `./result/${time}-${SavedItems.length}-${QueryString}.json`,
+    `./result/${time}-${SavedItems.length}-${StartYear}-${EndYear}.json`,
     JSON.stringify(SavedItems, null, 2),
     'utf-8'
   );
 
-  console.log(
-    `Saved to ./result/${time}-${SavedItems.length}-${QueryString}-${StartYear}-${EndYear}.json`
-  );
+  console.log(`Saved to ./result/${time}-${SavedItems.length}-${StartYear}-${EndYear}.json`);
 }
 
 process.on('unhandledRejection', (reason, promise) => {
   console.error(reason);
+  console.error(promise);
   process.exit(1);
 });
 
